@@ -19,6 +19,16 @@ class departamento():
         print 'Salario total de empleados:', cantidad
         return cantidad
 
+    def get_nombre_depto(self):
+        return self.nombre_depto
+
+
+    def get_salario_total_mensual(self):
+        c = 0.0
+        for empleado in self.listaEmpleados:
+            c = c + empleado.get_salario_mensual()* 12
+        print 'Salario total mensual de empleados:', c
+        return c
 
 
 '''
