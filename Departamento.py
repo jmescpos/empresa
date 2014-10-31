@@ -1,15 +1,13 @@
-from Empleado import *
 __author__ = 'Juanma'
 
 
-class departamento():
-
-    def __init__(self,nombre_depto,d_depto):
+class Departamento():
+    def __init__(self, nombre_depto, d_depto):
         self.nombre_depto = nombre_depto
         self.d_depto = d_depto
         self.listaEmpleados = []
 
-    def aniadir_empleado(self,empleado,):
+    def aniadir_empleado(self, empleado, ):
         self.listaEmpleados.append(empleado)
 
     def get_salario_total(self):
@@ -26,8 +24,7 @@ class departamento():
     def get_salario_total_mensual(self):
         c = 0.0
         for empleado in self.listaEmpleados:
-            c = c + empleado.get_salario_mensual()* 12
-        print 'Salario total mensual de empleados:', c
+            c += empleado.get_salario_mensual() * 12
         return c
 
 

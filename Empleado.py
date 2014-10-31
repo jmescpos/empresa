@@ -1,6 +1,7 @@
 __author__ = 'Juanma'
 
-class empleado():
+
+class Empleado():
     def __init__(self, nombre, apellidos, dni, direccion, edad, email, salario):
         self.nombre = nombre
         self.apellido = apellidos
@@ -24,10 +25,10 @@ class empleado():
         return self.edad
 
     def get_email(self):
-        return  self.email
+        return self.email
 
     def get_direccion(self):
-        return  self.direccion
+        return self.direccion
 
     def get_salario_mensual(self):
         return self.salario * 12
