@@ -10,31 +10,19 @@ __author__ = 'Juanma'
 
 
 class TestDepartamento(TestCase):
-    def test_get_salario_total(self):
-        '''
-         e1 = mock(empleado)
-         e2 = mock(empleado)
-         e3 = mock(empleado)
-
-         when(e1).get_salario().thenReturn(700)
-         when(e2).get_salario().thenReturn(800)
-         when(e3).get_salario().thenReturn(1200)
-
-         d = departamento("Informatica", 1)
-
-         d.aniadir_empleado(e1)
-         d.aniadir_empleado(e2)
-         d.aniadir_empleado(e3)
-
-         totalSalario = d.get_salario_total()
-
-         self.assertNotEquals(totalSalario, 2700)
-         self.assertEqual(totalSalario, 2700)
-         self.assertGreater(totalSalario, 1)
-         self.assertLess(totalSalario, 1)
-         '''
+    """Clase de testeo para los metodos de la clase departamento"""
 
     def test_get_salario_total_mensual(self):
+        """Metodo que comprueba si el salario total de los empleados funciona correctamente.
+
+        Este metodo crea tre objetos mockitos de tipo empleado, inicializa sus atributos de salario y crea unu departamento.
+        A continuacion anyade los empleados creados al departamento con el metodo aniadir empleado, y por ultimo utiliza
+        el metodo get_salario_total_mensual para calcular el salario total.
+
+        :return self.assertEquals: Devuelve el resultado de la comprobacion entre el metodo total_salario_mensual y el segundo parametro.
+        :raise  self.assertEquals: Puede devolver una excepcion si el metodo no hace correctamente el calculo.
+        """
+
         e1 = mock(Empleado)
         e2 = mock(Empleado)
         e3 = mock(Empleado)

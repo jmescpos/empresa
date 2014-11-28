@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Documentacion de la clase departamento. &mdash; empresa 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="empresa 1.0 documentation" href="index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li><a href="index.html">empresa 1.0 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/departamento.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="documentacion-de-la-clase-departamento">
+<h1>Documentacion de la clase departamento.<a class="headerlink" href="#documentacion-de-la-clase-departamento" title="Permalink to this headline">¶</a></h1>
+<p>Contents:</p>
+<div class="toctree-wrapper compound">
+<ul class="simple">
+</ul>
+</div>
+<dl class="class">
+<dt id="Departamento.Departamento">
+<em class="property">class </em><tt class="descclassname">Departamento.</tt><tt class="descname">Departamento</tt><big>(</big><em>nombre_depto</em>, <em>d_depto</em><big>)</big><a class="reference internal" href="_modules/Departamento.html#Departamento"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Departamento.Departamento" title="Permalink to this definition">¶</a></dt>
+<dd><p>Esta clase representa a un departamento</p>
+<dl class="method">
+<dt id="Departamento.Departamento.__init__">
+<tt class="descname">__init__</tt><big>(</big><em>nombre_depto</em>, <em>d_depto</em><big>)</big><a class="reference internal" href="_modules/Departamento.html#Departamento.__init__"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Departamento.Departamento.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Constructor clase departamento.</p>
+<p>Se encarga de inicializar los atributos correspondientes de la clase departamento.
+:param nombre_depto: Nombre del departamento.
+:param d_depto: Departamento.
+:type nombre_depto: String.
+:type d_depto: String.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Departamento.Departamento.aniadir_empleado">
+<tt class="descname">aniadir_empleado</tt><big>(</big><em>empleado</em><big>)</big><a class="reference internal" href="_modules/Departamento.html#Departamento.aniadir_empleado"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Departamento.Departamento.aniadir_empleado" title="Permalink to this definition">¶</a></dt>
+<dd><p>Metodo para introducir empleados al departamento</p>
+<p>Se encarga de introducir un objeto de tipo empleado al departamento que invoca el metodo.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>empleado</strong> (<em>Empleado.</em>) &#8211; Objeto de tipo empleado.</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Raises empleado:</th></tr>
+<tr class="field-even field"><td>&nbsp;</td><td class="field-body">Puede lanzar excepcion si el empleado no es correcto.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Departamento.Departamento.get_nombre_depto">
+<tt class="descname">get_nombre_depto</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/Departamento.html#Departamento.get_nombre_depto"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Departamento.Departamento.get_nombre_depto" title="Permalink to this definition">¶</a></dt>
+<dd><p>Metodo get del atributo nombre_depto</p>
+<p>Este metodo devolvera el atributo nombre_depto de la instancia departamento queinvoca el metodo.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">Devuelve le nombre del departamento.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">String.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Departamento.Departamento.get_salario_total">
+<tt class="descname">get_salario_total</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/Departamento.html#Departamento.get_salario_total"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Departamento.Departamento.get_salario_total" title="Permalink to this definition">¶</a></dt>
+<dd><p>Metodo que calcula el salario total de los empleados</p>
+<p>Este metodo se encarga de calcular el salario total de todos los empleados para ello recorrera
+todos los empleados y sumara su atributo salario, devolvera una variable con la suma
+total del salario de los empleados.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">Return cantidad:</th></tr>
+<tr class="field-odd field"><td>&nbsp;</td><td class="field-body">Devuelve la suma de los salarios.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Rtype cantidad:</th><td class="field-body">Float.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Departamento.Departamento.get_salario_total_mensual">
+<tt class="descname">get_salario_total_mensual</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/Departamento.html#Departamento.get_salario_total_mensual"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Departamento.Departamento.get_salario_total_mensual" title="Permalink to this definition">¶</a></dt>
+<dd><p>Metodo que devuelve el salario mensual de un empleado</p>
+<p>Este metod sera el encargado de sumar los salario mensuales de la lista de empleados.
+Para ello multiplicar el salario por 12 meses.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Return c:</th><td class="field-body">Devuelve la cantidad de salario mensual del empleado.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Rtype c:</th><td class="field-body">Float.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li><a href="index.html">EPD6 CALIDAD</a> &raquo;</li>
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, Juan Manuel Escalante Postigo.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.3.
+    </div>
+  </body>
+</html>
